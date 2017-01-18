@@ -41,8 +41,9 @@ The stand-alone application can be found and downloaded via the StandaloneEJAPP.
   If you want to change or run the .spec file to create your own stand-alone app:
   
       - First go to http://www.pyinstaller.org and download pyisntaller 3.2
-      - Move PyInstaller-3.2 directory to this directory 
+      - Move PyInstaller-3.2 directory into this directory 
       - Put files from this directory into PyInstaller-3.2
+      - Update outlookAppGUI.spec with correct file paths
       - Use "pyinstaller outlookAppGUI.spec" command to create stand-alone app
 
       
