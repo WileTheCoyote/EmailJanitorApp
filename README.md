@@ -17,25 +17,25 @@ The stand-alone application can be found and downloaded via the StandaloneEJAPP.
   - Employs easy to use GUI interface
 
 ### Libraries and Modules:
-    Tkinter       - graphical interface construction (GUI)
-    Pyinstaller   - creating stand-alone executables
-    Cryptography  - encrypting and decrypting login credentials 
-    imaplib       - communicating with email server
-    regex         - indentifying junk email patterns
+    Tkinter       -   graphical interface construction (GUI)
+    Pyinstaller   -   creating stand-alone executables
+    Cryptography  -   encrypting and decrypting login credentials 
+    imaplib       -   communicating with email server
+    regex         -   indentifying junk email patterns
   
 ### Contents:
-    StandaloneEJAPP.zip   - contains downloadable stand-alone application
-    Email Janitor.app     - stand-alone application (contains contents folder)
-    Email Janitor         - stand-alone terminal executable file 
-    outlookAppGUI.py      - contains code for graphical interface
-    outlookAppGUI.spec    - used by Pyinstaller to construct the stand-alone app 
-    janitor.py            - contains Janitor() class that handles basic operations for application
-    outlook.py            - contains Outlook() class that interacts with email server (*adapted from https://github.com/awangga/outlook)
-    paths.py              - contains functions that find the path of file 
-    userFile.txt          - holds the last successfully used username/email address (default - sample@msn.com) 
-    passFile.txt          - holds an encrypted version of the password that's associated with the last successfully used username
-    trash.icns            - icon for application
-    jan.jpg               - application logo
+    StandaloneEJAPP.zip   -   contains downloadable stand-alone application
+    Email Janitor.app     -   stand-alone application (contains contents folder)
+    Email Janitor         -   stand-alone terminal executable file 
+    outlookAppGUI.py      -   contains code for graphical interface
+    outlookAppGUI.spec    -   used by Pyinstaller to construct the stand-alone app 
+    janitor.py            -   contains Janitor() class that handles basic operations for application
+    outlook.py            -   contains Outlook() class that interacts with email server (*adapted from https://github.com/awangga/outlook)
+    paths.py              -   contains functions that find the path of file 
+    userFile.txt          -   holds the last successfully used username/email address (default - sample@msn.com) 
+    passFile.txt          -   holds an encrypted version of the password that's associated with the last successfully used username
+    trash.icns            -   icon for application
+    jan.jpg               -   application logo
 
 
 
