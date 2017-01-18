@@ -4,7 +4,7 @@ An application that removes junk and spam from your MSN email account (Works wit
 The motivation for this project was that a few of my friends often complain that msn does a poor job of indentifying 
 spam and junk emails. Even if a user marks a specific email address as junk, spammers now-a-days use dynamically created addresses to 
 continually bombard users. The application uses regular expressions to look for different types of dynamically created email addresses.
-It also allows the user to enter specifc "spam" words. The Email Janitor will then delete an email if its address contains a "spam"
+It also allows the user to enter specific "spam" words. The Email Janitor will then delete an email if its address contains a "spam"
 word provided by the user. 
 
 The stand-alone application can be found and downloaded via the StandaloneEJAPP.zip.
