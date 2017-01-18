@@ -65,6 +65,7 @@ class Janitor():
       if self.wordListSize > 0:
          sj = 1
          specificJunk = self.wordList[0]
+      
       # if more than 1 word was given, add each new word to specificJunk string
       if self.wordListSize > 1:
           # stay in while loop while we have more words in word list
@@ -90,16 +91,18 @@ class Janitor():
          # regex expressions for checking if email is spam and delete worthy
          # common pattern for a dynamically created spam email pattern
          # Regex Exp. 1
-         if re.match(r'^[0-9]{6}', emailAddress):
+         if re.match(r'([0-9])+.([0-9])(([0-9]|[A-Z]))+-([0-9])+@[0-9]', emailAddress):
             print "**matched on",emailAddress
             # if matched regex exp, specify as spam and clear for deletion
             superJunk = 1
+         
          # common spam emails contain these names in email address domain
          # Regex Exp. 2
          if re.search(r'ixfumaroidal|frgenuclast', emailAddress):
             print "** ixfuma or frgenu",emailAddress
             # if matched regex exp, specify as spam and clear for deletion
             superJunk = 1
+         
          # if user has specified any words enter this section
          if sj == 1:
             # use specificJunk string to create regex expression
@@ -109,6 +112,7 @@ class Janitor():
                print "** From word list provided",emailAddress
                # if matched regex exp, specify as spam and clear for deletion
                superJunk = 1
+         
          # if email was specified as spam
          if superJunk == 1:
             # print email ID of email we are deleting
