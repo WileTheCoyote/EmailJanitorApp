@@ -38,7 +38,7 @@ The stand-alone application can be found and downloaded via the StandaloneEJAPP.
     jan.jpg               -   application logo
 
 ### Notes:
-  If you want to change or run the .spec file to create your own stand-alone app:
+  If you want to change the app and or run the .spec file for yourself to create the stand-alone app:
   
       - First go to http://www.pyinstaller.org and download pyisntaller 3.2
       - Move PyInstaller-3.2 directory into this directory 
