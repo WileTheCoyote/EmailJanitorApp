@@ -20,7 +20,7 @@ The stand-alone application can be found and downloaded via the StandaloneEJAPP.
 
 ### Libraries and Modules:
 ```py
-Tkinter - graphical interface construction (GUI)
+"Tkinter - graphical interface construction (GUI)"
 Pyinstaller - creating stand-alone executables
 Cryptography - encrypting and decrypting login credentials 
 imaplib - communicating with email server
@@ -32,7 +32,7 @@ regex - indentifying junk email patterns
 StandaloneEJAPP.zip   - contains downloadable stand-alone application
 Email Janitor.app     - stand-alone application (contains contents folder)
 Email Janitor         - stand-alone terminal executable file 
-outlookAppGUI.py      - contains code for graphical interface
+outlookAppGUI.py      - "contains code for graphical interface"
 outlookAppGUI.spec    - used by Pyinstaller to construct the stand-alone app 
 janitor.py            - contains Janitor() class that handles basic operations for application
 outlook.py            - contains Outlook() class that interacts with email server (*adapted from https://github.com/awangga/outlook)
