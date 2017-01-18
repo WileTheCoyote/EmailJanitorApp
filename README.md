@@ -37,6 +37,18 @@ The stand-alone application can be found and downloaded via the StandaloneEJAPP.
     trash.icns            -   icon for application
     jan.jpg               -   application logo
 
+### Notes:
+  If you want to change or run the .spec file to create your own stand-alone app:
+  
+      - First go to http://www.pyinstaller.org and download pyisntaller 3.2
+      - Then move PyInstaller-3.2 directory to this directory 
+      - Move files from this directory to PyInstaller-3.2 directory
+      - use '''pyinstaller outlookAppGUI.spec''' to create stand-alone app
+
+      
+      
+      
+     
 
 
 
