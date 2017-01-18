@@ -492,8 +492,8 @@ class simpleapp_tk(Tkinter.Tk):
     
     def OnEmailFieldClick(self, event):
         # for introPage, when email field is clicked on
+        
         # erase both email and password fields when email field is clicked on
-        # fix so its only when self.passwordEntryVariable == self.lastUsedPassword:
         print self.emailEntryVariable.get(), self.lastUserNameUsed
         if self.emailEntryVariable.get() == self.lastUserNameUsed :
            self.emailEntryVariable.set("")
@@ -501,12 +501,13 @@ class simpleapp_tk(Tkinter.Tk):
     
     def OnPassFieldClick(self, event):
         # for introPage, when password field is clicked on
+        
         # delete field when clicked on
-        # fix so its only when self.passwordEntryVariable == self.lastUsedPassword:
         self.passwordEntryVariable.set("")
     
     def OnAddFieldClick(self, event):
         # for optionsPage, when add field clicked on
+        
         # if field is populated with default value erase it when field is clicked
         if self.wordEntryVariable.get() == "i.e. Target":
            self.wordEntryVariable.set("")
@@ -517,12 +518,14 @@ class simpleapp_tk(Tkinter.Tk):
     
     def OnPressEnterPassword(self,event):
         # for introPage, when cursor's in email field and user presses enter key
-        # keep cursor to password field, highlighting/selecting any text in field
+        
+        # keep cursor in password field, highlighting/selecting any text in field
         self.passwordEntry.focus_set()
         self.passwordEntry.selection_range(0, Tkinter.END)
 
     def OnPressEnterAddress(self,event):
         # for introPage, when cursor's in password field and user presses enter key
+        
         # move cursor to password field, highlighting/selecting any text in field
         self.passwordEntry.focus_set()
         self.passwordEntry.selection_range(0, Tkinter.END)
