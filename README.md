@@ -15,7 +15,7 @@ The stand-alone application can be found and downloaded via the StandaloneEJAPP.
   - Looks for patterns used in dynamically created spam emails
   - Has option to delete from Inbox or Junk folder
   - Employs easy to use GUI interface
-  - Stand-alone OSX app (runanble on machines that don't have python or other necessary packages)  
+  - Stand-alone OSX app (runanble on machines that don't have python or otherwise necessary packages)  
 
 ### Libraries and Modules:
     Tkinter       -   graphical interface construction (GUI)
