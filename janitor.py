@@ -50,7 +50,7 @@ class Janitor():
          emailAddress = self.mail.getEmailFrom(val).split('>')[0].split('<')[1]
          print val, emailAddress
          superJunk = 0
-         if re.match(r'^[0-9]{6}', emailAddress):
+         if re.match(r'([0-9])+.([0-9])(([0-9]|[A-Z]))+-([0-9])+@[0-9]', emailAddress):
             print "**matched on",emailAddress
             superJunk = 1
          if re.search(r'ixfumaroidal|frgenuclast', emailAddress):
