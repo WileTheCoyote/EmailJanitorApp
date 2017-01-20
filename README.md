@@ -46,6 +46,7 @@ The stand-alone application can be found and downloaded via the StandaloneEJAPP.
       - Put files from this directory into PyInstaller-3.2
       - Update outlookAppGUI.spec with correct file paths
       - Use "pyinstaller outlookAppGUI.spec" command to create stand-alone app
+      - If you want to add your own Regex expressions go the janitor.py file within the zapAwayJunk() function (line 53)
 
       
       
